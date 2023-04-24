@@ -1,0 +1,518 @@
+ /* Formatting for desktop */ 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* To get rid of the lines under links */ 
+    list-style: none;/* To get rid of bullet points */ 
+}
+
+body
+{
+font-family: Arial, Times;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container /* To format the content displayed on our site */ 
+{
+    max-width: 100%;
+    margin: 0 auto; /*To make our content centered*/
+}
+
+/*Format our header*/
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(Images/ambiance.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+  
+
+.menu
+{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo
+{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu .navbar ul li
+{
+    position: relative;
+    float: left; /*make our menu to be on the left top corner of screen*/
+}
+.menu .navbar ul li a /*To modify our links*/
+{
+    font-size: 18px;
+    padding: 20px;
+    color:aliceblue;
+    display: block;
+    font-weight: 500;
+}
+.menu .navbar ul li a:hover /*make our links chance color when clicked*/
+{
+    color: #CE967B;
+}
+
+
+#menu
+{
+    display: none;
+}
+
+.menu-icon
+{
+    width: 25px;
+}
+.menu label
+{
+    cursor:pointer;
+    display: none;
+}
+
+.header-content /*Format Content in our header*/
+{
+    text-align: center;
+}
+
+.header-content h1 /*Format Name of Business*/
+{
+    font-size: 75px;
+    line-height: 90px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.header-content p /*Format Description of  Business*/
+{
+    font-size: 17px;
+    color: beige;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1
+{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: burlywood;
+    color: black;
+    text-transform: uppercase;
+}
+.btn-1:hover
+{
+background-color:#ce9678 ;
+}
+
+.coffe
+{
+    padding: 100px 0;
+    background-color: #8c9de3;
+    position: relative;
+}
+.coffe-content
+{
+    text-align: center;
+}
+.coffee-content h2 /*Format "Our Signature...*/
+{
+    font-size: 55px;
+    line-height: 70px;
+    color:#5f4343;
+    /*text-transform: uppercase;*/
+    padding: 0 275px;
+    margin-bottom: 15px;
+    margin: 15px;
+    margin-top: -55px;
+    margin-bottom: -55px;
+    padding: 70px 0;
+    text-align: center;
+}
+.txt-p
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+.coffee-group
+{
+    background: #ce9678;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.coffee-img
+{
+    position: absolute;
+    top: 540px;
+    right:1px;
+}
+.Einspanner-Cold-Brew img
+{
+    width: 500px;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+
+}
+.Einspanner-Cold-Brew h3
+{
+    font-family: arial;
+    color: black;
+    font-size: 20px;
+    margin-top:  -5%;
+    margin-bottom: 15px;
+    padding: 70px 0;
+    text-align: center;
+
+}
+.Einspanner-Cold-Brew p
+{
+    
+    align-items: center;
+    font-family: arial;
+    color: black;
+    font-size: 15px;
+    padding-left: 40px;
+    margin-top:  -10%;
+    margin-bottom: -50px;
+    padding: 70px 0;
+    /*border: 3px solid green;*/
+    text-align: center;
+}
+
+
+ .btn-2
+{
+    font-family:'Lucida Sans';
+    text-shadow: #CE967B;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: burlywood;
+    color: black;
+    font-weight:bolder;
+    margin-left:  45% ;
+    margin-bottom: 10%;
+    
+    
+}
+    
+    
+
+.btn-2:hover
+{
+    background-color:#ce9678 ;
+}
+    
+.MatchaEinspanner img
+{
+    width: 450px;
+    height:600px;
+    padding: 50px;
+    position:static;
+    top: 704px;
+    left: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    
+}
+.MatchaEinspanner h3
+
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+    /*font-family: arial;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 0 50px;
+    margin-top: -55px;
+    margin-bottom: -55px;
+    padding: 70px 0;
+    text-align: center;*/
+
+}
+.MatchaEinspanner p
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+
+.Pastries-contentcontainer h2 /*Format "Our Signature...*/
+{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 60px;
+    color:#5f4343;
+    /*text-transform: uppercase;*/
+    padding: 0 270px;
+    margin-bottom: 15px;
+    margin: 15px;
+    margin-top: -55px;
+    margin-bottom: -55px;
+    padding: 70px 0;
+    text-align: center;
+}
+.Pastries-1 img
+{
+    
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    position:static;
+    top: 704px;
+    left: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.Pastries-1 h3
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.Pastries-contentcontainer p
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.Sunglasses-container h2
+{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 60px;
+    color:#5f4343;
+    /*text-transform: uppercase;*/
+    padding: 0 270px;
+    margin-bottom: 15px;
+    margin: 15px;
+    margin-top: -55px;
+    margin-bottom: -55px;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.Sunglasses-container p
+{
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.Sunglasses-cotent 
+{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+}
+.sunglass-Large-Frame img
+{
+    
+    margin-left:60%;
+    width: 45%;
+    margin-top: 25%;
+    
+}
+.sunglass-Large-Frame img:hover /*Enlarge pics at click*/
+{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+
+}
+.sunglass-Large-Frame h3
+{
+    margin-left: 65%;
+    margin-top: 10%;
+}
+.sunglass-Large-Frame p
+{
+   
+    margin-left: 35%;
+   
+}
+.sunglass-Tint img
+{
+    margin-left: -50%;
+    width: 45%;
+    margin-top: 25%;
+    display: inline-block
+    
+}
+.sunglass-Tint img:hover /*Enlarge pics at click*/
+{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+
+}
+.sunglass-Tint h3
+{
+    margin-left: -45%;
+    margin-top: 10%;
+}
+.sunglass-Tint p
+{
+   
+    margin-left: -45%;
+   
+}
+.sunglass-circle img
+{
+    margin-left: -160%;
+    width: 45%;
+    margin-top: 25%;
+    display: inline-block;
+}
+.sunglass-circle img:hover /*Enlarge pics at click*/
+{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+
+}
+.sunglass-circle h3
+{
+    margin-left: -160%;
+    margin-top: 10%;
+}
+.sunglass-circle p
+{
+    margin-left: -160%;
+}
+
+.Talk-to-us
+{
+
+    display: grid;
+    grid-template-columns:  auto auto auto auto ;
+    text-align: center;
+    background-color:#A9A454;
+    background-size:cover;
+    margin-left: -5%;
+    margin-right: -20%;
+    float: initial;    
+}
+
+.Location h3
+{
+    padding-top: 40px;
+}
+
+
+.google-map {
+    padding-bottom: 100px;
+    position:relative;
+}
+
+.google-map iframe {
+    
+    left: 0;
+    top: 20%;
+    position:initial;
+}
+
+    
+    .CONTACT h3
+    {
+        text-align: center;
+        padding-top: 40px;
+        
+    }
+.Time h3
+{
+    padding-top: 40px;
+}
+    
+
+.instagram
+{
+   color: aliceblue; 
+}
+
+@media(max-width:991px)
+{
+    menu
+    {
+        padding:30px;
+    
+    }
+    .menu label
+    {
+        display: initial;
+    }
+    .menu.navbar
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #5f4343;
+        display: none;
+    }
+    .menu .navbar ul li 
+    {
+        width:100%
+    }
+    #menu:checked ~ .navbar
+    {
+        display: initial;
+    }
+
+    .header
+    {
+        min-height: 0vh;
+    }
+    .header-content
+    {
+        padding: 100px 30px;
+    }
+    .header-content p 
+    {
+        padding: 0;
+    }
+}
